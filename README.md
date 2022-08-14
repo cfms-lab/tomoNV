@@ -30,7 +30,7 @@ theta_YP = 5
 ```
 ![TomoNV_logo](./img/tomoNV_optimal_search.png)
 
-※ Python implementations (Python_Example1_singleOrientation.py, Python_Example2_searchOptimal.py) are rather old versions and contains some noises.
+※ Python implementations (Python_Example1_singleOrientation.py, Python_Example2_searchOptimal.py) are rather old versions and can have some noises.
 
 
 
