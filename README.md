@@ -1,5 +1,5 @@
 # TomoNV
-#### Implementation of the submitted paper, "Prediction of optimal 3D printing orientation using sparse voxelization and modified support structure tomography"
+#### Implementation of the submitted paper, "Prediction of optimal 3D printing orientation using vertically sparse voxelization and modified support structure tomography"
 
 ### Usage
 #### 1. Install Visual Studio Code, Python 3 (preferably Version 3.7.8), and the Python packages using "requirements.txt".
