@@ -1,0 +1,36 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(x64\Release\)에 다른 프로젝트(CPixelize_Win64.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  SMatrix3f.cpp
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\Tomo_types.h(43,26): warning C4091: '__declspec(dllexport)': 변수를 선언하지 않으면 'Tomo::enumPixelType' 왼쪽은 무시됩니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\SMatrix3f.cpp(239,17): warning C4244: '초기화 중': 'double'에서 'Tomo::_FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\SMatrix3f.cpp(240,17): warning C4244: '초기화 중': 'double'에서 'Tomo::_FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\SMatrix3f.cpp(241,17): warning C4244: '초기화 중': 'double'에서 'Tomo::_FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\SMatrix3f.cpp(243,17): warning C4244: '초기화 중': 'double'에서 'Tomo::_FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\SMatrix3f.cpp(244,17): warning C4244: '초기화 중': 'double'에서 'Tomo::_FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\SMatrix3f.cpp(245,17): warning C4244: '초기화 중': 'double'에서 'Tomo::_FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  STPSlot.cpp
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\Tomo_types.h(43,26): warning C4091: '__declspec(dllexport)': 변수를 선언하지 않으면 'Tomo::enumPixelType' 왼쪽은 무시됩니다.
+  STomoNV_Base.cpp
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\Tomo_types.h(43,26): warning C4091: '__declspec(dllexport)': 변수를 선언하지 않으면 'Tomo::enumPixelType' 왼쪽은 무시됩니다.
+  STomoNV_TMPxl.cpp
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\Tomo_types.h(43,26): warning C4091: '__declspec(dllexport)': 변수를 선언하지 않으면 'Tomo::enumPixelType' 왼쪽은 무시됩니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\STomoNV_TMPxl.cpp(106,33): warning C4244: '초기화 중': 'double'에서 'Tomo::TOMO_FLOAT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\STomoNV_TMPxl.cpp(132,59): warning C4244: '=': 'double'에서 'Tomo::TOMO_FLOAT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  STomoPixel.cpp
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\Tomo_types.h(43,26): warning C4091: '__declspec(dllexport)': 변수를 선언하지 않으면 'Tomo::enumPixelType' 왼쪽은 무시됩니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\STomoPixel.cpp(151,26): warning C4244: '초기화 중': 'double'에서 'Tomo::TOMO_FLOAT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\STomoPixel.cpp(413,36): warning C4244: '초기화 중': 'double'에서 'Tomo::TOMO_FLOAT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\STomoPixel.cpp(415,30): warning C4244: '+=': 'Tomo::TOMO_FLOAT32'에서 'Tomo::TOMO_INT16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TomoNV_Win64.cpp
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\Tomo_types.h(43,26): warning C4091: '__declspec(dllexport)': 변수를 선언하지 않으면 'Tomo::enumPixelType' 왼쪽은 무시됩니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\TomoNV_Win64.cpp(37,66): warning C4244: 'return': 'double'에서 'Tomo::TOMO_FLOAT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\TomoNV_Win64.cpp(79,22): warning C4267: '=': 'size_t'에서 'Tomo::TOMO_LONGINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\TomoNV_Win64.cpp(160,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\TomoNV_Win64.cpp(231): message : 컴파일되는 함수 템플릿 인스턴스화 'Tomo::TOMO_LONGINT _TomoNV_Function_Call<STomoNV_TMPxl>(Tomo::TOMO_FLOAT32 *,Tomo::TOMO_FLOAT32 *,Tomo::TOMO_FLOAT32 *,Tomo::TOMO_FLOAT32 *,Tomo::TOMO_FLOAT32 *,Tomo::TOMO_LONGINT *)'에 대한 참조를 확인하세요.
+  Tomo_types.cpp
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\Tomo_types.h(43,26): warning C4091: '__declspec(dllexport)': 변수를 선언하지 않으면 'Tomo::enumPixelType' 왼쪽은 무시됩니다.
+D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\tomoNV_CppDLL_VS2019\Tomo_types.cpp(230,19): warning C4244: '=': 'double'에서 'Tomo::TOMO_FLOAT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  dllmain.obj : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+     ..\TomoNV_Win64.lib 라이브러리 및 ..\TomoNV_Win64.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  코드를 생성했습니다.
+  TomoNVC_Win64.vcxproj -> D:\OneDrive\Documents\__PaperWorks\__InProgress\__Manikin_TomoNV_2022\_배포\tomoNV\TomoNV_Win64.dll
