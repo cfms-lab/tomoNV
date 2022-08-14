@@ -10,7 +10,8 @@ pip install -r requirements.txt
 
 ※ C++ DLL file ( TomoNV_Win64.dll, TomoNV_Win64.lib) is compiled for MS Windows 64bit. Its Visual C++ source code is at the "tomoNV_CppDLL_VS2019" folder.
 
-#### 3. Open the downloaded folder in Visual Studio Code. Modify  mesh filename,  initial orientation and angle interval(=theta_YP) in "Cpp_example.py".
+#### 3. Open the downloaded folder in Visual Studio Code. Modify  mesh filename,  initial orientation and angle interval(=theta_YP) in "Cpp_example.py".  Run the "Cpp_example.py" (shortcut key, F5)
+
 (1) To see the support structure information for the given (yaw, pitch, roll), set "theta_YP" as zero.
 ```
 #=========================================================================================
@@ -28,8 +29,6 @@ theta_YP = 5
 #=========================================================================================
 ```
 ![TomoNV_logo](./img/tomoNV_optimal_search.png)
-
-#### 4. Run "Cpp_example.py" (shortcut key, F5)
 
 ※ Python implementations (Python_Example1_singleOrientation.py, Python_Example2_searchOptimal.py) are rather old versions and contains some noises.
 
