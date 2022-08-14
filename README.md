@@ -6,7 +6,7 @@
 ```
 pip install -r requirements.txt
 ```
-#### 2. Download all the files of this repository to your PC
+#### 2. Download all the files of this repository to your PC ("Code"->"Download the Zip")
 
 ※ C++ DLL file ( TomoNV_Win64.dll, TomoNV_Win64.lib) is compiled for MS Windows 64bit. Its Visual C++ source code is at the "tomoNV_CppDLL_VS2019" folder.
 
