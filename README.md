@@ -2,10 +2,16 @@
 #### Implementation of the submitted paper, "Prediction of optimal 3D printing orientation using vertically sparse voxelization and modified support structure tomography"
 
 ### Usage
-#### 1. Install Visual Studio Code, Python 3 (preferably Version 3.7.8), and the Python packages using "requirements.txt".
+#### 1. Install software
+#####    (1) Install Visual Studio Code (VSCode)
+#####    (2) Install Python 3 (preferably Version 3.7.8)
+#####    (3) Install Python packages using "requirements.txt".
 ```
 pip install -r requirements.txt
 ```
+#####    (4) Install VC++ 2019 Redistributable package
+( https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170 ).
+
 #### 2. Download all the files of this repository to your PC ("Code"->"Download Zip")
 
 ※ C++ DLL file ( TomoNV_Win64.dll, TomoNV_Win64.lib) is compiled for MS Windows 64bit. Its Visual C++ source code is at the "tomoNV_CppDLL_VS2019" folder.
