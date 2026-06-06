@@ -1,6 +1,8 @@
 # TomoNV
 #### Implementation of the submitted paper, "Prediction of optimal 3D printing orientation using vertically sparse voxelization and modified support structure tomography"
 
+## This version is obsolete. Please refer to the [recent version](https://github.com/cfms-lab/Tomo_GPU2024). 
+
 ### Usage
 #### 1. Install software
 #####    (1) Install Visual Studio Code (VSCode)
