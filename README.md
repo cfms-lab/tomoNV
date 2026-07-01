@@ -1,45 +1,27 @@
-# TomoNV
-#### Implementation of the submitted paper, "Prediction of optimal 3D printing orientation using vertically sparse voxelization and modified support structure tomography"
+# tomoNV — Archived (구버전)
 
-## This version is obsolete. Please refer to the [recent version](https://github.com/cfms-lab/Tomo_GPU2024). 
+> ⚠️ **이 리포지토리는 구버전입니다. 최신 버전인 [Tomo_Shell2026](https://github.com/cfms-lab/Tomo_Shell2026) 를 참조하세요.**
+>
+> ⚠️ **This is an archived old version. Please use the latest release: [Tomo_Shell2026](https://github.com/cfms-lab/Tomo_Shell2026).**
 
-### Usage
-#### 1. Install software
-#####    (1) Install Visual Studio Code (VSCode)
-#####    (2) Install Python 3 (preferably Version 3.7.8)
-#####    (3) Install Python packages using "requirements.txt".
-```
-pip install -r requirements.txt
-```
-#####    (4) Install VC++ 2019 Redistributable package
-( https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170 ).
+---
 
-#### 2. Download all the files of this repository to your PC ("Code"->"Download Zip")
+**KR** — 이 리포지토리는 발표된 논문에 인용된 URL을 보존하기 위해 유지됩니다.
+논문에서 사용된 원본 코드와 데이터는 삭제되지 않았으며, 이 리포지토리의
+[커밋 히스토리](https://github.com/cfms-lab/tomoNV/commits/main)에서 그대로 열람·다운로드할 수 있습니다
+(이 안내 커밋 바로 이전 커밋을 확인하세요).
 
-※ C++ DLL file ( TomoNV_Win64.dll, TomoNV_Win64.lib) is compiled for MS Windows 64bit. Its Visual C++ source code is at the "tomoNV_CppDLL_VS2019" folder.
+**EN** — This repository is preserved so that the URL cited in published papers remains valid.
+The original code and data are not lost: they remain fully accessible in the
+[commit history](https://github.com/cfms-lab/tomoNV/commits/main) of this repository
+(see the commit just before this notice).
 
-#### 3. Open the downloaded folder in Visual Studio Code. Modify  mesh filename,  initial orientation and angle interval(=theta_YP) in "Cpp_example.py".  Run the "Cpp_example.py" (shortcut key, F5)
+---
 
-(1) To see the support structure information for the given (yaw, pitch, roll), set "theta_YP" as zero.
-```
-#=========================================================================================
-(g_input_mesh_filename, Yaw, Pitch, Roll) = ('TomoNV_Data\\(4)Bunny_69k.stl', 247, 46, 0)
-theta_YP = 0
-#=========================================================================================
-```
-![TomoNV_logo](./img/tomoNV_single_orientation.png)
+최신 버전 **[Tomo_Shell2026](https://github.com/cfms-lab/Tomo_Shell2026)** 은
+solid mesh와 thin-shell mesh 모두에 대해 3D 프린팅 지지구조(support structure) 양을
+CPU 및 CUDA(GPU) 버전으로 계산합니다.
 
-(2) To search optimal orientation, input "theta_yp" value as "360 / N " (where N = integer).
-```
-#=========================================================================================
-(g_input_mesh_filename, Yaw, Pitch, Roll) = ('TomoNV_Data\\(4)Bunny_69k.stl', 0, 0, 0)
-theta_YP = 5
-#=========================================================================================
-```
-![TomoNV_logo](./img/tomoNV_optimal_search.png)
-
-※ Python implementations (Python_Example1_singleOrientation.py, Python_Example2_searchOptimal.py) are rather old versions and can have some noises.
-
-
-
-
+The latest **[Tomo_Shell2026](https://github.com/cfms-lab/Tomo_Shell2026)** computes
+3D-printing support-structure volume for both solid and thin-shell meshes,
+with CPU and CUDA (GPU) implementations.
